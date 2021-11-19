@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class TemperatureConversion
+{
+   public static void main( String [] args )
+   {
+      Scanner myName = new Scanner(System.in); 
+    System.out.print("Please enter your name:");
+    String name = myName.nextLine();
+    
+    Scanner myAge = new Scanner(System.in);
+    System.out.print("Please enter your age:");
+    int age = myAge.nextInt();
+    
+    Scanner myGender = new Scanner(System.in);
+    System.out.print("Please enter your gender:");
+    String gender = myGender.nextLine(); 
+    
+    Scanner myDepartment = new Scanner(System.in);
+    System.out.print("Please enter your department:");
+    String department = myDepartment.nextLine();
+    
+    Scanner myPI = new Scanner(System.in);
+    System.out.print("Please enter the value of PI:");
+    double PI = myPI.nextDouble();
+    
+    //Output 
+    System.out.printf("%-10s %s %s\n", "Name", ":", name); 
+    System.out.printf("%-10s %s %s\n", "Age", ":", age);
+    System.out.printf("%-10s %s %s\n", "Gender", ":", gender);
+    System.out.printf("%-10s %s %s\n", "Department", ":", department);
+    System.out.printf("%-10s %s %s\n", "Pi", ":", PI);
+
+	}
+} 
